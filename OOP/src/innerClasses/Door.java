@@ -5,13 +5,9 @@ public class Door {
 	public Door() {
 		lock=new Lock(true);
 	}
-	
-	
-	public Lock getLock() {
+		public Lock getLock() {
 		return lock;
 	}
-
-
 	public void shopStat() {
 		if(lock.isLock()) {
 			System.out.println("Shop is closed, visit later");
@@ -20,7 +16,7 @@ public class Door {
 			System.out.println("Shop is open, welcome");
 		}
 	}
-	class Lock{
+	public class Lock{
 		private boolean lock;
 
 		public Lock(boolean lock) {
