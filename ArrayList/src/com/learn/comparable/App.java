@@ -39,7 +39,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		List names=new LinkedList<>();
+		List<Names> names=new LinkedList<>();
 		names.add(new Names("Chand"));
 		names.add(new Names("Solomon"));
 		names.add(new Names("John"));
